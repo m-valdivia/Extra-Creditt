@@ -1,1 +1,102 @@
+/* GLOBAL THEME */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #f2f4f7;
+    color: #1a1a1a;
+}
+
+/* NAVIGATION BAR */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0a2342; /* deep engineering navy */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+nav .logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: #4db8ff; /* engineering blue accent */
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(to bottom right, #0a2342, #123a63);
+    color: white;
+    padding: 160px 20px 100px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+/* PAGE SECTIONS */
+section {
+    background: white;
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-left: 6px solid #0a2342;
+}
+
+h2 {
+    font-size: 28px;
+    color: #0a2342;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #123a63;
+    margin-top: 20px;
+}
+
+/* TEXT */
+p, li {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0a2342;
+    color: white;
+    margin-top: 60px;
+}
 
